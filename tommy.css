@@ -1,0 +1,20 @@
+.imagenposicion {
+    position: relative;
+    left: 250px;
+    top: 50px;
+    float: left;
+}
+
+#t1 {
+    float: right;
+    text-align: center;
+    margin: 0;
+}
+
+#back {
+    float: right;
+}
+
+#l1 {
+    list-style: none;
+}

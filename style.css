@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.centrar {
+    text-align: center;
+    color: #000000;
+}
+
+.listaposicion {
+    position: relative;
+    left: 250px;
+    top: 50px;
+}
+
+.imagenposicion {
+    position: relative;
+    left: 250px;
+    top: 50px;
+}
+
+#titulo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #2a1ed2;
+}
+
+li {
+    color: #000000;
+}
+
+#p1 {
+    width: 900px;
+    margin: auto;
+}
+
+#ni {
+    text-align: center;
+}
+
+#nsa {
+    text-align: center;
+}
+
+.cengat {
+    text-align: center;
+    color: #000000;
+}

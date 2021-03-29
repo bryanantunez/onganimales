@@ -1,0 +1,28 @@
+.centrar {
+    text-align: center;
+    color: #000000;
+}
+
+#titulo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+#p1 {
+    width: 900px;
+    margin: auto;
+}
+
+#ni {
+    text-align: center;
+}
+
+#inicio {
+    float: right;
+}
+
+.imagenposicion {
+    position: relative;
+    left: 250px;
+    top: 50px;
+}
