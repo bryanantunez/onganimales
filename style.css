@@ -4,6 +4,14 @@ body {
     background-color: rgb(151, 151, 151);
 }
 
+footer {
+    background-color: #000000;
+}
+
+.lett {
+    color: #ffffff;
+}
+
 h1 {
     font-size: 66px;
     font-weight: 100;
