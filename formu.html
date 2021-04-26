@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/2be257bd16.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="formu.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+
+        <div class="container">
+            <h1>Formulario Contacto</h1>
+
+            <div class="contenido">
+
+                <div class="info">
+
+                    <div class="col">
+                        <i class="icono fas fa-map-marker-alt"></i>
+                        <p>Av.Colinas del mar #1234 San antonio</p>
+                    </div>
+                    <div class="col">
+                        <i class="icono fas fa-envelope"></i>
+                        <p>micorreo@gmail.com</p>
+                    </div>
+                    <div class="col">
+                        <i class="icono fas fa-phone"></i>
+                        <p>+56956009144</p>
+                    </div>
+                    <div class="redes-s">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="formulario col">
+                    <form action="index.html" method="GET"></form>
+                    <input type="text" name="nombre" placeholder="Nombre" id="nombre">
+                    <input type="text" name="correo" placeholder="Correo Electronico" id="correo">
+                    <input type="text" name="numero" placeholder="Numero de telefono" id="numero">
+                    <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+                    <button type="button" onclick="validarFormulario()">Enviar</button>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
