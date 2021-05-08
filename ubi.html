@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!doctype html>
+    <html lang="es">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Zilla+Slab+Highlight:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="ubi.css">
+        <title>ONG</title>
+    </head>
+
+
+
+
+    <body>
+
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">ONG</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <ion-icon name="menu-outline"></ion-icon>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html" id="inicio">Inicio</a>
+                        </li>
+                        <li clsas="nav-item">
+                            <a class="nav-link active" aria-current="page" href="gatos.html" id="gatoss">Gatos</a>
+                        </li>
+                        <li clsas="nav-item">
+                            <a class="nav-link active" aria-current="page" href="perros.html" id="perross">Perros</a>
+                        </li>
+                        <li clsas="nav-item">
+                            <a class="nav-link active" aria-current="page" href="ubi.html" id="ubi">Ubicación</a>
+                        </li>
+                        <li clsas="nav-item">
+                            <a class="nav-link active" aria-current="page" href="formu.html" id="quieness">Inicio de sesión</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Busca algo aquí..." aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+
+            </div>
+        </nav>
+        <section class="mapa">
+            <div id="map"></div>
+            <script src="ubi.js"></script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+        </section>
+    </body>
+
+
+    </html>
