@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+nav {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background: #E5E5E5;
@@ -157,6 +162,34 @@ main {
 
 .formulario__grupo-incorrecto .formulario__input {
     border: 3px solid #bb2929;
+}
+
+.footer-style {
+    padding-top: 50px;
+    background-color: #000000;
+}
+
+footer {
+    color: white;
+}
+
+footer h3 {
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+
+footer .footer-above {
+    padding-top: 50px;
+    background-color: #000000;
+}
+
+footer .footer-col {
+    margin-bottom: 50px;
+}
+
+footer .footer-below {
+    padding: 25px 0;
+    background-color: #000000;
 }
 
 
