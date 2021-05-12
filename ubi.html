@@ -21,7 +21,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
         <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-
+        <script src="jquery-3.6.0.js"></script>
+        <script src="script.js"></script>
         <link rel="stylesheet" type="text/css" href="ubi.css">
         <title>ONG</title>
     </head>
@@ -62,6 +63,24 @@
             <div id="map"></div>
             <script src="ubi.js"></script>
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+        </section>
+        <section>
+            <h1>El Tiempo</h1>
+            <h3 id="estacion"></h3>
+            <h4 id="temperatura"></h4>
+
+            <button id="btnTodoChile">Ver Datos de Todo Chile</button>
+            <hr>
+
+            <table id="datos">
+                <tr>
+                    <td>Codigo</td>
+                    <td>Estación</td>
+                    <td>Estado del Tiempo</td>
+                    <td>Temperatura Actual</td>
+                    <td>Ver Detalle</td>
+                </tr>
+            </table>
         </section>
     </body>
     <footer class="text-center footer-style">

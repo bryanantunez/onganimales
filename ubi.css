@@ -38,6 +38,10 @@ footer .footer-below {
     background-color: #000000;
 }
 
+#datos td {
+    border: 1px solid #333;
+}
+
 @media (min-width: 576px) {
     h1 {
         font-size: 40px;
